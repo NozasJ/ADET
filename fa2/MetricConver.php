@@ -38,6 +38,18 @@ p{
     text-align: center;
     font-size: 12pt;
 }
+button{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #0056b3;
+}
 </style>
 <body>
     <?php 
@@ -149,6 +161,7 @@ p{
                     <td>1 mile</td><td> = </td><td><?php echo $mile2; ?> kilometres</td><td> 1 mi </td><td> = </td><td> <?php echo $mile2; ?> km</td>
                 </tr>
             </table>
+            <a href = "index.php"><button> BACK</button></a>
         </div>
     </div>
 </body>
