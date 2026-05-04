@@ -24,22 +24,27 @@
 button{
     background-color: #007BFF;
     color: white;
+    width: 200px;
+    height: 50px;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    padding: 10px 20px;
+    margin: 20px;
 }
 button:hover{
     background-color: #0056b3;
-    s
 }
 
 </style>
 <body>
     <div class = "container">
         <h1> FORMATIVE 2 PROJECTS </h1>
-        <a href = "MetricConver.php"><button> Metric Conversion</button></a>
+        <a href = "MetricConver.php"><button> 1. Metric Conversion</button></a>
+        <a href = "MetricConver.php"><button> 2. Metric Conversion</button></a>
+        <a href = "Numbers.php"><button> 3. Looping</button></a>
     </div>
 </body>
 </html>
