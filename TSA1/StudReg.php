@@ -12,7 +12,6 @@
                     margin: 50px auto;
                     border-radius: 4px;
                     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-                  
                 }
                 .header {
                     display: flex;
@@ -63,15 +62,17 @@
                     margin-bottom: 40px;
                 }
                 button{
+                    display: block;
+                    margin: 0 auto;
                     padding: 12px 28px;
                     display: inline-flex;
                     align-items: center;
                     justify-content: center;
-                    font-family: 'Inter', system-ui, sans-serif;
+                    font-family: 'Inter', sans-serif;
                     font-size: 16px;
                     font-weight: 600;
                     color: #ffffff;
-                    background-color: #2563eb; 
+                    background-color: #004012; 
                     border: none;
                     border-radius: 8px;
                     cursor: pointer;
