@@ -26,7 +26,7 @@
                 margin-top: 30px;
                 max-width: 95vh;
                 display: grid;
-                grid-template-columns: repeat(10, 1fr);
+                grid-template-columns: repeat(11, 1fr);
                 aspect-ratio: 1/1;
                 border: 1px solid #eee;
             }
@@ -38,9 +38,10 @@
                 font-weight: bold;
             }
             .line{
+                margin-top: 20px;
                 width: 100%;
                 height: 0.1%;
-                background-color: rgb(3, 83, 16);
+                background-color: #683805;
                 padding: 2px;
             }
             .cell{
@@ -49,12 +50,14 @@
                 align-items: center;
                 font-size: 1.2rem;
                 font-weight: 500;
+                margin: 1px;
             }
             .bg-light {
-                background-color: #ffffff;
+                background-color: #ffd992;
             }
             .bg-dark {
-                background-color: #e0e0e0;
+                background-color: #683805;
+                color: white;
             }
         </style>
     </head>
@@ -64,8 +67,8 @@
             <div class = "line"></div>
                 <div class="container-grid">
                 <?php
-                    for ($row = 1; $row <= 10; $row++) {
-                        for ($col = 1; $col <= 10; $col++) {
+                    for ($row = 0; $row <= 10; $row++) {
+                        for ($col = 0; $col <= 10; $col++) {
                             $product = $row * $col;
 
                             $color = ($row + $col) % 2 == 0 ? 'bg-light' : 'bg-dark';
