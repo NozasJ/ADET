@@ -50,7 +50,7 @@ button:hover{
     <div class = "container">
         <h1> TECHNICAL SUMMATIVE 1 PROJECTS </h1>
         <a href = "StudReg.php"><button> 1. Student Registration</button></a>
-        <a href = "MultTable.php"><button> 2. Multiplication Table</button></a>
+        <a href = "MultTab.php"><button> 2. Multiplication Table</button></a>
     </div>
 </body>
 </html>
