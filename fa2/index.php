@@ -43,7 +43,7 @@ button:hover{
     <div class = "container">
         <h1> FORMATIVE 2 PROJECTS </h1>
         <a href = "MetricConver.php"><button> 1. Metric Conversion</button></a>
-        <a href = "MetricConver.php"><button> 2. Metric Conversion</button></a>
+        <a href = "gradeRank.php"><button> 2. Grade Ranking</button></a>
         <a href = "Numbers.php"><button> 3. Looping</button></a>
     </div>
 </body>
