@@ -12,7 +12,7 @@
         flex-direction: column;
         width: 100vw;
         height: 100vh;
-        background-color: rgb(6, 65, 0);   
+        background-color: rgb(219, 219, 219);   
         justify-content: center;
         align-items: center;
 
@@ -26,11 +26,11 @@
         background-color: #efefef;
         color: rgb(6, 65, 0);
         height: 20%;
-        width: 55%;
+        width: 55vw;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         margin-top: 20px; 
         border-radius: 10px;
-        border: 2px solid #333;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.1);
     }
     .main{
         display: grid;
@@ -41,11 +41,11 @@
         background-color: #efefef;
         align-items: center;
         justify-items: center;
-        width: 50%;
+        width: 53vw;
         margin-top: 20px;
         margin-bottom: 20px;
         border-radius: 10px;
-        border: 2px solid #333;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.1);
     }
     .footer{
         display: flex;
@@ -59,7 +59,7 @@
         box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
     }
     .button{
-        background-color: white;
+        background-color: #rgb(0, 58, 22);
         padding: 30px;
         border-radius: 40px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
