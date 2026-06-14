@@ -11,7 +11,7 @@
         <form action ="resultcolor.php" method = "post">
         <label>
             First favorite color 
-            <select id="color" name="color1">
+            <select id="color1" name="color1">
             <option value="" selected hidden></option>
             <option value="red">Red</option>
             <option value="blue">Blue</option>
@@ -27,7 +27,7 @@
         </label>
         <label>
             Second favorite color 
-            <select id="color" name="color2">
+            <select id="color2" name="color2">
             <option value="" selected hidden></option>
             <option value="red">Red</option>
             <option value="blue">Blue</option>
@@ -43,7 +43,7 @@
         </label>
         <label>
             Third favorite color 
-            <select id="color" name="color3">
+            <select id="color3" name="color3">
             <option value="" selected hidden></option>
             <option value="red">Red</option>
             <option value="blue">Blue</option>
@@ -59,7 +59,7 @@
         </label>
         <label>
             Fourth favorite color 
-            <select id="color" name="color4">
+            <select id="color4" name="color4">
             <option value="" selected hidden></option>
             <option value="red">Red</option>
             <option value="blue">Blue</option>
@@ -75,7 +75,7 @@
         </label>
         <label>
             Fifth favorite color
-            <select id="color" name="color5">
+            <select id="color5" name="color5">
             <option value="" selected hidden></option>
             <option value="red">Red</option>
             <option value="blue">Blue</option>
