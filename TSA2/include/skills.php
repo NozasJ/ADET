@@ -1,0 +1,26 @@
+            <?php$tskills = "Adobe Photoshop, C++, HTML, CSS, JavaScript, Python, SQL, PLSQL, Java, Microsoft Office";
+            $sskills = "Critical Thinking, Problem Solving, Communication, Teamwork, Time Management";?>
+
+             <div class = "skills">
+            <div class = "line"></div>
+                <p style = "font-size: 20pt; font-family: 'Times New Roman', Times, serif; color: rgb(5, 5, 5); font-weight: Bold;padding: 10px;margin: 0;">Technical Skills</p>
+            <div class = "line"></div>
+                <span class = "skill">Adobe Photoshop</span>
+                <span class = "skill">C++</span>
+                <span class = "skill">HTML</span>
+                <span class = "skill">CSS</span>
+                <span class = "skill">JavaScript</span>
+                <span class = "skill">Python</span>
+                <span class = "skill">SQL</span>
+                <span class = "skill">PLSQL</span>
+                <span class = "skill">Java</span>
+                <span class = "skill">Microsoft Office</span>
+            <div class = "line"></div>
+                <p style = "font-size: 20pt; font-family: 'Times New Roman', Times, serif; color: rgb(5, 5, 5); font-weight: Bold;padding: 10px;margin: 0;">Soft Skills</p>
+            <div class = "line"></div>
+                <span class = "skill">Critical Thinking</span>
+                <span class = "skill">Problem Solving</span>
+                <span class = "skill">Communication</span>
+                <span class = "skill">Teamwork</span>
+                <span class = "skill">Time Management</span>
+            <div class = "line"></div>
