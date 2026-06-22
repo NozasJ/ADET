@@ -23,7 +23,7 @@
         align-items: center;
         font-size: 2rem;
         font-weight: bold;
-        background-color: #efefef;
+        background-color: #1342002d;
         color: rgb(6, 65, 0);
         height: 20%;
         width: 55vw;
@@ -38,7 +38,7 @@
         gap: 20px;
         padding: 20px;
         flex-grow: 1;
-        background-color: #efefef;
+        background-color: #1342002d;
         align-items: center;
         justify-items: center;
         width: 53vw;
@@ -59,7 +59,7 @@
         box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
     }
     .button{
-        background-color: #rgb(0, 58, 22);
+        background-color: #ffffffcc;
         padding: 30px;
         border-radius: 40px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
