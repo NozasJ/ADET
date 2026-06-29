@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 16px 60px;
+}
+.card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px 24px 24px;
+    width: 100%;
+    max-width: 400px;
+}
+.card h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #111;
+    margin-bottom: 14px;
+}
+.formItems {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.formItems label {
+    font-size: 0.88rem;
+    color: #222;
+    margin-bottom: 3px;
+}
+.formItems input {
+    padding: 7px 2px;
+    border: 1px solid #bbb;
+    font-size: 0.95rem;
+    color: #111;
+    background: #fff;
+    outline: none;
+    width: 100%;
+}
+.formItems input:focus {
+        border-color: #555;
+}
+.form-actions {
+    margin-top: 16px;
+}
+button[type="submit"] {
+    width: 100%;
+    padding: 9px;
+    background: #e8e8e8;
+    border: 1px solid #bbb;
+    font-size: 0.97rem;
+    color: #111;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background: #d5d5d5;
+}
+footer {
+    width: 100%;
+    max-width: 400px;
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 6px;
+}
+.error-box {
+    background: #fdecea;
+    border: 1px solid #e53935;
+    padding: 10px 14px;
+    color: #c62828;
+    font-size: 0.9rem;
+    margin-top: 16px;
+    width: 100%;
+    max-width: 400px;
+}
+.result-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 18px 24px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 16px;
+}
+.result-card h3 {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+.result-table td {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    color: #222;
+}
+.result-table td:first-child {
+    background: #f5f5f5;
+    font-weight: bold;
+    width: 45%;
+}
