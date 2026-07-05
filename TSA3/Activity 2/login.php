@@ -33,11 +33,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <?php if (isset($error_message)): ?>
-        <p><?php echo $error_message; ?></p>
+        <div class="alert error">
+            <?= $error_message ?>
+        </div>
     <?php endif; ?>
     <div class = "container">
     <form action="login.php" method="post">
