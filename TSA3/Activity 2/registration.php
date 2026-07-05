@@ -11,7 +11,7 @@ require('backend.php'); ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <div class="top">
@@ -24,7 +24,7 @@ require('backend.php'); ?>
         </div>
     <?php endif; ?>
     <div class="container">
-        <form action="login.php" method="post">
+        <form action="registration.php" method="post">
 
             <label>First Name</label>
             <input type="text" name="first_name">
@@ -33,7 +33,7 @@ require('backend.php'); ?>
             <input type="text" name="middle_name">
 
             <label>Last Name</label>
-            <input type="text" name="last_name ">
+            <input type="text" name="last_name">
 
             <label>Username</label>
             <input type="text" name="username">
@@ -45,7 +45,7 @@ require('backend.php'); ?>
             <input type="password" name="confirm_password">
 
             <label>Birthday</label>
-            <input type="text" name="birthday">
+            <input type="date" name="birthday">
 
             <label>Email</label>
             <input type="email" name="email">
